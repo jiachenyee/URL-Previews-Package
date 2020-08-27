@@ -3,7 +3,11 @@
 ## Usage
 ```swift
 import URL_Previews
+
+// Replace this with any URL you want
 let url = URL(string: "https://github.com/sst-inc/")!
+
+// Fetching the page information
 url.fetchPageInfo { (title, description, previewImage) -> Void in
 
     // 🥳 Things are going great
